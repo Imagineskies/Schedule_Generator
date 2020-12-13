@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Schedule generator to simplify managers time.">
+  <meta name="author" content="Rayna Weeden">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/background.jpg">
+
+  <title>Schedule Generator</title>
+
+  <!-- CSS Framworks -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section class="shown centerPadding">
+    <div class="container">
+      <div class="row">
+        <noscript>
+          <div class="col-lg-10">
+            <h1>JavaScript is needed to run this application.</h1>
+          </div>
+        </noscript>
+        <div class="col-lg-10 mx-auto">
+          <h1 class="animated ">Welcome!</h1>
+          <hr>
+          <h4>This is a Schedule Generate for a business.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="hidden centerPadding">
+
+    <!-- Nav Bar -->
+
+    <nav id="menuTemp" class="navbar navbar-expand-xl navbar-togglable fixed-top">
+
+      <div class="container">
+
+        <!-- Toggler -->
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="navbar-toggler-btn"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Links -->
+          <ul class="nav navbar-nav mr-auto custom-navbar">
+
+            <li class="nav-item-divider">
+
+              <!-- Nav Divider -->
+              <span class="nav-link">
+                <span></span>
+              </span>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="editDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Edit
+              </a>
+              <div class="dropdown-menu" aria-labelledby="editDropdownMenu">
+                <a class="dropdown-item" href="#">Save</a>
+                <a class="dropdown-item" href="#">Save As...</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Quit</a>
+              </div>
+            </li>
+
+            <li class="nav-item-divider">
+              <!-- Nav Divider -->
+              <span class="nav-link">
+                <span>&#124;</span>
+              </span>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="runDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Run
+              </a>
+              <div class="dropdown-menu" aria-labelledby="runDropdownMenu">
+                <a class="dropdown-item" href="#">Generate Schedule</a>
+                <a class="dropdown-item" href="#">Generate PDF</a>
+              </div>
+            </li>
+
+            <li class="nav-item-divider">
+              <!-- Nav Divider -->
+              <span class="nav-link">
+                <span>&#124;</span>
+              </span>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                Settings
+              </a>
+            </li>
+
+            <li class="nav-item-divider">
+              <!-- Nav Divider -->
+              <span class="nav-link">
+                <span>&#124;</span>
+              </span>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                Live View
+              </a>
+            </li>
+
+            <li class="nav-item-divider">
+              <!-- Nav Divider -->
+              <span class="nav-link">
+                <span>&#124;</span>
+              </span>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="toolsDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tools
+              </a>
+              <div class="dropdown-menu" aria-labelledby="toolsDropdownMenu">
+                <a class="dropdown-item" href="#">Help</a>
+                <a class="dropdown-item" href="#">Wiki</a>
+                <a class="dropdown-item" href="#">Print</a>
+                <a class="dropdown-item" href="#">Send</a>
+              </div>
+            </li>
+
+            <li class="nav-item-divider">
+              <!-- Nav Divider -->
+              <span class="nav-link">
+                <span></span>
+              </span>
+            </li>
+
+          </ul>
+
+        </div> <!-- / .navbar-collapse -->
+
+      </div> <!-- / .container -->
+
+    </nav>
+
+    <header class="masthead">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 mx-auto">
+            <h2>Welcome!</h2>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+  </main>
+
+
+  <!-- JavaScript Framworks -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/swiper-bundle.js"></script>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Custom Scripts -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
